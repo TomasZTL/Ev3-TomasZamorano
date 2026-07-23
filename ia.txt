@@ -1,4 +1,6 @@
 USO DE ia:
+
+Etapa 1: No se utilizo ia.
 ETAPA 2: Componente RecetaCard 
 Prompt a Copilot: "Dame una estructura base para un componente RecetaCard en React que reciba props y use PropTypes para validar."
 Utilidad: Parcialmente útil. Entregó un componente básico pero sin diferenciación visual clara por categoría.

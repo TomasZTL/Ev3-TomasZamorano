@@ -34,6 +34,12 @@ Este se utiliza para mostrar el mensaje "No hay recetas que coincidan" si el fil
 ¿Por qué es adecuado?
 Es adecuado para evitar mostrar pantallaes en blanco o datos erróneos, adaptando la inferfaz según el estado actual de los datos que se presentan.
 
+Renderizado de listas (.map + key)
+ ¿Dónde se utiliza? En ListaRecetas.jsx para recorrer el arreglo de recetas filtradas y generar un RecetaCard por cada una. 
+ ¿Por qué es adecuado? .map() nos permite transformar datos en elementos JSX de forma dinámica, y key={receta.id} le permite a React identificar eficientemente qué ítems cambian o se eliminan al filtrar.
+
+
+
 2.Preguntas 
 
 ¿Qué ventaja tiene dividir el recetario en componentes en lugar de escribir todo en un solo archivo?
