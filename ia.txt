@@ -1,0 +1,20 @@
+USO DE ia:
+ETAPA 2: Componente RecetaCard 
+Prompt a Copilot: "Dame una estructura base para un componente RecetaCard en React que reciba props y use PropTypes para validar."
+Utilidad: Parcialmente útil. Entregó un componente básico pero sin diferenciación visual clara por categoría.
+Modificación/Redacción propia: Diseñé manualmente la lógica de colores por categoría y agregué el distintivo "VEG".
+
+ETAPA 3: Lista de Recetas (ListaRecetas) 
+ Prompt a Copilot: "Cómo recorrer un arreglo de objetos en React y renderizar componentes usando .map() con key="
+ Utilidad: importancia de usar el `id` único como `key` en lugar del índice del arreglo.
+ Modificación/Redacción propia: Nada la verdad.
+
+ETAPA 4: Estado y Filtro Seguro 
+Prompt a Copilot/IA: "COmo puedo implementar un input controlado en React con búsqueda filtrada y sanitización básica?"
+Utilidad: Util pero tuve que emitir un par de  comentarios para que lo haga completo
+modificación/Redacción propia: 
+
+ETAPA 5: Destacar Vegetariana y Contador 
+Prompt a Copilot/IA: ",Cómo filtrar un arreglo para obtener el conteo de elementos que cumplan una condición booleana en React"
+Utilidad: Super util
+Modificación/Redacción propia:
